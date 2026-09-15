@@ -1,12 +1,12 @@
-# pi-modelarts-models
+# pi-hw-maas-models
 
-[ModelArts](https://console.huaweicloud.com/modelarts) MaaS model provider config for [Pi](https://pi.dev/). Only token plan models are included.
+[Huawei MaaS](https://console.huaweicloud.com/modelarts) model provider config for [Pi](https://pi.dev/). Only token plan models are included.
 
 ## Info
 
-| provider id               | baseUrl                                | api                |
-| ------------------------- | -------------------------------------- | ------------------ |
-| modelarts-maas-token-plan | https://api.modelarts-maas.com/plan/v2 | openai-completions |
+| provider id  | baseUrl                                | api                |
+| ------------ | -------------------------------------- | ------------------ |
+| hw-maas-plan | https://api.modelarts-maas.com/plan/v2 | openai-completions |
 
 | models id         |
 | ----------------- |

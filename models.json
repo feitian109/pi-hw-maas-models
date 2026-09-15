@@ -1,20 +1,21 @@
 {
   "providers": {
-    "modelarts-maas-token-plan": {
-      "name": "ModelArts MaaS Token Plan",
+    "hw-maas-plan": {
+      "name": "Huawei MaaS Token Plan",
       "baseUrl": "https://api.modelarts-maas.com/plan/v2",
       "api": "openai-completions",
       "compat": {
         "supportsDeveloperRole": false,
-        "thinkingFormat": "deepseek"
+        "thinkingFormat": "deepseek",
+        "maxTokensField": "max_tokens"
       },
       "models": [
         {
           "id": "glm-5.1",
           "name": "GLM-5.1",
           "reasoning": true,
-          "contextWindow": 202752,
-          "maxTokens": 131072,
+          "contextWindow": 192000,
+          "maxTokens": 64000,
           "compat": {
             "supportsReasoningEffort": false
           }
@@ -23,8 +24,8 @@
           "id": "kimi-k2.6",
           "name": "Kimi K2.6",
           "reasoning": true,
-          "contextWindow": 262144,
-          "maxTokens": 98304,
+          "contextWindow": 256000,
+          "maxTokens": 32000,
           "compat": {
             "supportsReasoningEffort": false
           }
@@ -39,8 +40,8 @@
             "medium": null,
             "high": "high"
           },
-          "contextWindow": 1048576,
-          "maxTokens": 393216
+          "contextWindow": 1024000,
+          "maxTokens": 64000
         }
       ]
     }
