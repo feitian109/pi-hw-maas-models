@@ -41,7 +41,10 @@
             "high": "high"
           },
           "contextWindow": 1024000,
-          "maxTokens": 64000
+          "maxTokens": 64000,
+          "compat": {
+            "requiresReasoningContentOnAssistantMessages": true
+          }
         }
       ]
     }
