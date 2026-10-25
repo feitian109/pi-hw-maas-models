@@ -20,6 +20,10 @@
             "medium": null,
             "high": "high"
           },
+          "input": [
+            "text",
+            "image"
+          ],
           "contextWindow": 1024000,
           "maxTokens": 384000
         },
