@@ -66,16 +66,6 @@
           "compat": {
             "supportsReasoningEffort": false
           }
-        },
-        {
-          "id": "kimi-k2.6",
-          "name": "Kimi K2.6",
-          "reasoning": true,
-          "contextWindow": 256000,
-          "maxTokens": 32000,
-          "compat": {
-            "supportsReasoningEffort": false
-          }
         }
       ]
     }

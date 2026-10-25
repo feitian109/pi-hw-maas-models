@@ -14,6 +14,3 @@
 | `deepseek-v4-flash`   |
 | `glm-5.3`             |
 | `glm-5.1`             |
-| `kimi-k2.6`           |
-
-> `kimi-k2.6` will be unavailable on 2026-11-08.
