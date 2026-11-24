@@ -29,23 +29,6 @@
           "maxTokens": 384000
         },
         {
-          "id": "deepseek-v4.1-flash",
-          "name": "DeepSeek v4.1 Flash",
-          "reasoning": true,
-          "thinkingLevelMap": {
-            "minimal": null,
-            "low": "low",
-            "medium": null,
-            "high": "high"
-          },
-          "input": [
-            "text",
-            "image"
-          ],
-          "contextWindow": 1024000,
-          "maxTokens": 384000
-        },
-        {
           "id": "glm-5.3",
           "name": "GLM-5.3",
           "reasoning": true,

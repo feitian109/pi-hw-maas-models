@@ -11,5 +11,4 @@
 | models id                  |
 | -------------------------- |
 | `deepseek-v4.1-flash-1017` |
-| `deepseek-v4.1-flash`      |
 | `glm-5.3`                  |
